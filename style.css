@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto";
+   box-sizing: border-box;
+
+}
+
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+}
+
+#minicircle {
+   transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+   width: 10px;
+   height: 10px;
+   position: absolute;
+   z-index: 999999;
+   border-radius: 50%;
+   background-color: white;
+
+}
+
+#main {
+   width: 100%;
+   background-color: black;
+}
+
+#hero {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+   color: white;
+}
+
+#nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 40px;
+   color: white;
+}
+
+#nav a {
+   text-decoration: none;
+   font-size: 18px;
+   color: white;
+}
+
+#heading {
+   margin-top: 90px;
+}
+
+.bounding {
+   width: fit-content;
+   overflow: hidden;
+}
+
+.boundingelem {
+   transform: translateY(100%);
+}
+
+#heading h1 {
+   font-size: 7vw;
+   text-transform: uppercase;
+   font-weight: 500;
+   line-height: 1;
+   opacity: 0.6;
+   margin-left: 30px;
+}
+
+#heading #sech1 {
+   margin-left: 160px;
+}
+
+.blocktext {
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   width: fit-content;
+}
+
+.blocktext h5 {
+
+   text-align: right !important;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+#chotiheadings {
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   margin-top: 100px;
+   padding-left: 30px;
+}
+
+#chotiheadings h5 {
+   margin-top: .5vw;
+   font-size: 1vw;
+   text-align: right;
+}
+
+#herofooter {
+   display: flex;
+   padding: 0 2vw;
+   width: 100%;
+   position: absolute;
+   bottom: 3%;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#herofooter a {
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+#herofooter #iconset {
+   display: flex;
+   gap: 5;
+}
+
+#herofooter .circle {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background-color: #888;
+}
+
+#second {
+   color: white;
+   padding-right: 10vw;
+   padding-top: 200px;
+   background-color: black;
+   width: 100%;
+   height: 100vh;
+}
+
+.elem {
+   position: relative;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 3.5vw 3vw;
+   padding-right: 0;
+   border-top: 1px solid #888;
+}
+
+.elem h1 {
+   text-transform: uppercase;
+   font-size: 8vw;
+   opacity: .7;
+   font-weight: 400;
+}
+
+.elemlast {
+   border-bottom: 1px solid #888;
+}
+
+.elem img {
+   opacity: 0;
+   height: 140%;
+   position: absolute;
+   z-index: 999;
+}
+
+#about {
+   width: 100%;
+   background-color: black;
+   padding: 10vw 10vw;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 50px;
+   padding-left: 40vw;
+}
+
+#textabout {
+   width: 25rem;
+}
+
+#textabout h5 {
+   text-transform: uppercase;
+   opacity: .6;
+   margin-bottom: 10px;
+
+}
+
+#textabout p {
+   line-height: 1.7;
+   margin-bottom: 30px;
+}
+
+#about img {
+   width: 200px;
+}
+
+#textabout a {
+   padding: 12px 22px;
+   border: 1px solid white;
+   color: white;
+   font-size: 12px;
+   text-decoration: none;
+   border-radius: 100px;
+}
+
+#subcribe {
+   color: white;
+   padding: 20px 30px;
+   padding-bottom: 7vw;
+   background-color: black;
+
+}
+
+#subcribe h5 {
+   text-transform: uppercase;
+   opacity: .6;
+}
+
+#subcribe h3 {
+   text-transform: uppercase;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+#footer {
+   display: flex;
+   color: white;
+   align-items: center;
+   justify-content: space-between;
+   background-color: black;
+   padding: 20px 30px;
+}
+
+#footerleft {
+   display: flex;
+   gap: 20px;
+}
+
+#footerright {
+   display: flex;
+   gap: 30px;
+}
+
+#footer a {
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 500;
+}

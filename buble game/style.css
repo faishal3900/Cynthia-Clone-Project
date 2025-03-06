@@ -1,0 +1,43 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+   background-color: rgb(155, 184, 155);
+   height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ptop{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px ;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(72, 104, 72);
+}
+
+.elem{
+display: flex;
+background-color: red;
+}
+
+.box{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
